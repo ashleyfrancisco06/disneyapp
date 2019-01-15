@@ -48,6 +48,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - add slideshow to Home page
 - add a cart page that links to cart icon
 - add recently viewed slideshow on tours page 
+- add map for entire park on main page
 
 ## React Architectural Design
 
@@ -83,10 +84,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
 
-#### SAMPLE.....
+
 | Function | Description | 
 | --- | :---: |  
-| Capitalize | This will capitalize the first letter in a string of text | 
+| componentdidmount | set the state of my api? or return my data | 
+| fetchdata| fetch api data |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
