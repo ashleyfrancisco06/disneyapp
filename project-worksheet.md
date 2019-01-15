@@ -96,8 +96,9 @@ Helper functions should be generic enought that they can be reused in other appl
  #### SAMPLE.....
 | Library | What it Does | 
 | --- | :---: |  
-| Bootstrap | Used to help style my application | 
-| Giphy API | Used to get gifs to use | 
+|Disney Dining API | Used to  get dining API | 
+| Disney Atrractions API| used to get magic kingdoms rides data | 
+| Disney Hotel API | used to get hotel data|
 
 
 ## Code Snippet
