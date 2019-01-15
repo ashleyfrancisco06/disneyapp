@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 2| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Day 1| Project Description | Complete
+|Day 2| Wireframes / Priority Matrix / Functional Components | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| Pseudocode / actual code | Incomplete
 |Day 5| Initial Clickable Model  | Incomplete
@@ -18,30 +18,36 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 ## Project Description
-
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This App is a Disney Touring App. It allows you to check out the rides in Disney's Magic Kingdom as well as Disney Hotels and the dining spots in Magic Kingdom.
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
+https://photos.app.goo.gl/2b5x7cqPK4DvhDTs6
+
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
+https://photos.app.goo.gl/2b5x7cqPK4DvhDTs6
 
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### SAMPLE.....
 #### MVP 
 
 - Find and use external api 
 - Render data on page in a list
+- create basic components
+- put data on page 
+- nest routing
+- grid out tours page(s)
+- style
 
 #### PostMVP 
 
-- Add data to favorites section
+- add slideshow to Home page
+- add a cart page that links to cart icon
+- add recently viewed slideshow on tours page 
 
 ## React Architectural Design
 
@@ -53,11 +59,13 @@ Define the the React components and the architectural design of your app.
 
 Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-#### SAMPLE.....
+
 | Component | Description | 
 | --- | :---: |  
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Header | This will render the header include the nav and title | 
+| Main/Tour Pages | This will render the main  which renders the # Tour Pages (dining, attractions, hotels)| 
+| Footer | This will render the footer with soical media icons| 
+
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
@@ -65,8 +73,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### SAMPLE.....
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs |
+| Adding Components| H | 5hrs| 0 |
+| Working with API | H | 5hrs|0 |
+| Routing and Nested Routing | H | 3hrs | 0 |
+| Grid out touring pages | H | 3hrs | 0 |
+| Style | H | 3hrs | 0 | 
 | Total | H | 6hrs| 5hrs | 
 
 ## Helper Functions
