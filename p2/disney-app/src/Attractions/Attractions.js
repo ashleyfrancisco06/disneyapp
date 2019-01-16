@@ -1,6 +1,9 @@
 import React, { Component } from "react"
 import axios from "axios"
 import "./main.css"
+import attractionImg from "./AttractionImg"
+
+console.log(attractionImg[0].image)
 
 class Attractions extends Component {
     constructor(props){
@@ -28,19 +31,36 @@ class Attractions extends Component {
         const renderAttractions = (
             attractions.map((att, id) =>{
                 return(
-                    <div key={id}>
+                    <div key={id} className="grid">
                         {att.name}
+                       
                     </div>
                 )
             })
         )
+        console.log(attractionImg)
+
+        const images = attractionImg
+         const renderImages =(
+            images.map((image, id) =>{
+                return(
+                    <div key={id} className="grid">
+                    {image.image}
+                    </div>
+                )
+            })
+         )
+            
+          
+         console.log(renderImages)
+
         return(
-            <div className="attractions">
-                <h1>Attractions!!!!</h1>
-                <div className="grid">
-                {renderAttractions}
+            <div>
+                <h1>Attractions</h1>
+                <div className="attractions">
+                    {renderAttractions}
+                    {renderImages}   
                 </div>
-               
             </div>
             
         )

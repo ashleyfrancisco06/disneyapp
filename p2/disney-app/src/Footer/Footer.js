@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
+import './main.css'
+
 class Footer extends Component{
     render(){
         return(
             <div className="footer">
-                <h1>this is my footer</h1>
+               <ul>
+                   <li><i class="fab fa-facebook-square"></i></li>
+                   <li><i class="fab fa-instagram"></i></li>
+                   <li><i class="fab fa-twitter-square"></i></li>
+               </ul>
             </div>
         )
     }

@@ -1,0 +1,10 @@
+.footer{
+    background-color: #a4def9
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left:10px;
+    margin:10px;
+    font-size: 20pt;
+}
