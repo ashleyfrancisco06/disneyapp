@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import Diner from "./Diner";
 
 class Dining extends Component{
     constructor(props){
@@ -26,15 +27,9 @@ class Dining extends Component{
         console.log(this.state.diner)
        const diners = this.state.diner
        const renderDiners=
-            diners.map((diner, id) =>{
+            diners.map(diner =>{
                 return(
-                    <div key={id}>
-                        <h2> Name:{diner.name}</h2>
-                        <p> Cuisine: {diner.cuisine} </p>
-                        <p> Quality Rating: {diner.counter_quality_rating} </p>
-                        <p> Food Selections: {diner.selection}</p>
-                    </div>
-                    // <Diner />
+                    <Diner diner={diner} />
                 )
             })
        
