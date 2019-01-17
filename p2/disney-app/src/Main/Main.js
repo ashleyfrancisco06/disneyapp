@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Attractions from "../Attractions/Attractions";
 import Dining from "../Dining/Dining";
 import "./main.css";
+import '../App.css';
 
 
 
@@ -12,11 +13,12 @@ class Main extends Component{
         return(
             <main>
                 <div className="main">
+                    <div className="parainner">
+                        <Route exact path="/" component={Home} />
+                        <Route path="/Attractions" component={Attractions}/>
+                        <Route path="/Dining" component={Dining} />
+                    </div>
                     
-                    <Route path="/Home" component={Home} />
-                   
-                    <Route path="/Attractions" component={Attractions}/>
-                    <Route path="/Dining" component={Dining} />
                     
                 </div>
             </main>

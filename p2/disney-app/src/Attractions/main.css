@@ -1,6 +1,10 @@
 .attractions{
+   position:relative;
+    padding-bottom:30pt;
     margin:0 auto;
+    justify-content: center;
     display: grid;
+    background-color: rgba(255, 255, 255, 0.7);
     grid-template-columns: repeat(4,400px);
     grid-template-rows: repeat(3,400px);
     grid-template-areas: 
@@ -12,9 +16,30 @@
 .grid{
     font-size:20pt; 
     text-align: center; 
-
+    position: relative;
+   padding-bottom:20px;
+  
 }
- img{
+.attImages img{
     width:300px;
     height:300px;
+    margin-bottom:20px;
+    border-radius:10px;
+    
+}
+.attImages img:hover{
+    transform: scale(1.5);
+    transition: 1.5s ease-in-out ;
+}
+.names{
+    font-size: 20pt;
+    font-family:"Shadows into light", cursive;
+    font-weight: 500;
+    text-shadow: 1px 1px white;
+    width:400px;
+   
+    padding-top:40pt;
+}
+.names:hover{
+    color:palevioletred;
 }

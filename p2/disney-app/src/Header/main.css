@@ -3,8 +3,13 @@ li{
     display: inline-flex;
     padding: 5pt;
     font-size: 30pt;
+    
 
 }
 .header{
-background-color: #a4def9;
+background-color: white;
+}
+.headerImg{
+    width:400px;
+    height:400px;
 }

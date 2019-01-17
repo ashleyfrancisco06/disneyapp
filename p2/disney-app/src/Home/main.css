@@ -1,4 +1,19 @@
-.homeImg{
-    width:500px;
-    height:500px;
+
+.quote{
+    font-family: 'Dancing Script', cursive;
+    font-size:50pt;
+    color:cornsilk;
+    width:400px;
+    height:400px;
+   margin:50px auto;
+    padding:5px;
+   background-color: rgba(0,0,0,.7)
+
+}
+h1{
+    font-family: "Dancing script", cursive;
+    font-size:50pt;
+    margin-top:10pt;
+    padding-top:10pt;
+    text-shadow:2px 2px white;
 }

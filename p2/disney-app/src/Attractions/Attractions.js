@@ -26,31 +26,6 @@ class Attractions extends Component {
         this.fetchData()
     }
     render() {
-        console.log(this.state.attractions)
-        const attractions = this.state.attractions
-        const renderAttractions = (
-            attractions.map((att, id) => {
-                return (
-                    <div key={id} className="grid">
-                        {att.name}
-                    </div>
-
-                )
-            })
-        )
-        console.log(attractionImg)
-
-        const images = attractionImg
-        const renderImages = (
-            images.map((image, id) => {
-                return (
-                    <div key={id} className="grid">
-                        {image.image}
-                    </div>
-
-                )
-            })
-        )
 // https://stackoverflow.com/questions/41311322/how-can-i-map-over-two-arrays-at-the-same-time
 // mapping through the attractions array and setting index 
         const renderBoth = this.state.attractions.map((eachAtt, index) => {
@@ -58,25 +33,19 @@ class Attractions extends Component {
             const att = attractionImg[index].image
             return (
                 <div>
-                    <div>
+                    <div className="names">
                         {eachAtt.name}
                     </div>
-                    <div>
+                    <div className="attImages">
                         {att}
                     </div>
                 </div>
             )
         })
-
-
-        // console.log(renderImages)
-
         return (
             <div>
                 <h1>Attractions</h1>
                 <div className="attractions">
-                    {/* {renderAttractions}
-                    {renderImages} */}
                     {renderBoth}
                 </div>
 
