@@ -74,12 +74,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### SAMPLE.....
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Adding Components| H | 5hrs| 0 |
-| Working with API | H | 5hrs|0 |
-| Routing and Nested Routing | H | 3hrs | 0 |
-| Grid out touring pages | H | 3hrs | 0 |
-| Style | H | 3hrs | 0 | 
-| Total | H | 19hrs| 0hrs | 
+| Adding Components| H | 5hrs| 1 |
+| Working with API | H | 5hrs|2 |
+| Routing and Nested Routing | H | 3hrs | 2 |
+| Grid out touring pages | H | 3hrs | 20min|
+| Style | H | 3hrs | 5 | 
+| Total | H | 19hrs| 10.20hrs | 
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
@@ -113,16 +113,15 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ - created new "page" with second api
+ - react routing added
+ - mapping through api and images  
 
-#### SAMPLE.....
+
 | Original Plan | Outcome | 
 | --- | :---: |  
-| Have one Book component | Split that component into BookInfo and BookInteraction as the component grew too complicated | 
+| make separate component for images | mapped through api and images in order to group them on a grid | 
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
