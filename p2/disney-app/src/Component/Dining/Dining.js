@@ -18,14 +18,13 @@ class Dining extends Component{
 
     fetchData= async()=>{
         const DIN_API = await axios('https://touringplans.com/magic-kingdom/dining.json');
-        console.log(DIN_API.data)
         const diner = DIN_API.data
         this.setState({diner: diner[0]});
     }
 
  
      render(){
-        console.log(this.state.diner)
+        
        const diners = this.state.diner
        const renderDiners=
             diners.map(diner =>{

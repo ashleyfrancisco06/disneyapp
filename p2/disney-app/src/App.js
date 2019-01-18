@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from "./Header/Header"
-import Main from "./Main/Main"
-import Footer from "./Footer/Footer"
+import Header from "./Component/Header/Header"
+import Main from "./Component/Main/Main"
+import Footer from "./Component/Footer/Footer"
 import './App.css';
 import { ParallaxProvider } from "react-scroll-parallax";
 

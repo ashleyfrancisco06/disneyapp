@@ -3,7 +3,7 @@ import axios from "axios"
 import "./main.css"
 import attractionImg from "./AttractionImg"
 
-console.log(attractionImg[0].image)
+
 
 class Attractions extends Component {
     constructor(props) {

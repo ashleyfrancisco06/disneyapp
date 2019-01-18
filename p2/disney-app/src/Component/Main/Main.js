@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import Attractions from "../Attractions/Attractions";
 import Dining from "../Dining/Dining";
 import "./main.css";
-import '../App.css';
+
 
 
 
